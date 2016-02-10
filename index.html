@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Patrice's DES 157 Portal: The Library</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="ex5.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <script src="https://use.typekit.net/snj4oih.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <!--js links-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <script src="ex5.js"></script>
+</head>
+
+<body>
+  <img src="images/cpr-background.png" usemap="#cprBackground">
+
+  <map name="cprBackground" id="cprMap">
+    <area shape="rect" coords="544, 430, 928, 528">
+  </map>
+
+  <section class="overlay">
+  </section>
+
+  <section class="popOut" id="cprTestPopout">
+    <h1>CPR Knowledge Test</h1>
+    <p>Whether or not you would want <span class="toolTip">CPR</span> (cardiopulmonary resuscitation) attempted on you
+      is one of the most important medical decisions you’ll face. Take this “test” to learn
+      some facts about CPR that might surprise you!<br><br>
+      It doesn’t matter if you get the answers to this test right or
+      wrong—the intention is to think about CPR in a way that might be new for you.</p>
+    <img src="images/begin-button.png" class="forward" id="beginButton">
+    <img src="images/close-button.png" class="closeButton">
+  </section>
+
+  <section class="popOut" id="cprTestPopout2">
+    <h3>Question 1:</h3>
+    <p class="questionP">Most people who receive CPR can return to their daily activities within a day or two.<br><br></p>
+    <img src="images/true-button.png" class="tfButton" id="trueButton">
+    <img src="images/false-button.png" class="tfButton" id="falseButton">
+    <p class="answerP">False: in reality, less than 10% of adults who survive CPR will return to their previous
+      quality of life. Most people who receive CPR will have to be on a <span class="toolTip">ventilator</span>, or breathing machine.</p>
+    <img src="images/close-button.png" class="closeButton">
+    <div class="backNextButton backButton"><img src="images/back-arrow.png">Back</div>
+    <div class="backNextButton nextButton forward">Next<img src="images/next-arrow.png"</div>
+  </section>
+
+  <section class="popOut" id="cprTestPopout3">
+    <h1>Good work.</h1>
+    <p>You have finished the CPR Knowledge Test. Did you learn something new? When making a decision about CPR,
+      it’s good to keep the facts in mind, as well as what’s important to you.</p>
+    <img src="images/close-button.png" class="closeButton">
+    <img src="images/check-mark.png" id="checkMark">
+    <div class="backNextButton backButton"><img src="images/back-arrow.png">Back</div>
+  </section>
+
+</body>
+
+</html>
